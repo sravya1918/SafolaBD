@@ -51,7 +51,7 @@
 <body>
   <div class="container">
     <h2>Answer the Question</h2>
-    <p>Who is my crush in college?</p>
+    <p>Who is my crush in cricket?</p>
     <form onsubmit="return checkAnswer()">
       <input type="text" id="answer" placeholder="Your answer here">
       <button type="submit">Submit</button>
@@ -62,7 +62,7 @@
   <script>
     function checkAnswer() {
       const answer = document.getElementById('answer').value.trim().toLowerCase();
-      if (answer === 'swastik') {
+      if (answer === 'devdutt padikkal') {
         // Redirect to the photo gallery
         window.location.href = 'photo-gallery.html';
         return false; // Prevent default form submission

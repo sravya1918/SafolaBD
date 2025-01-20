@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday!</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #333 url('Photo15.jpg') no-repeat center center/cover;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 30px;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 600px;
+    }
+    h1 {
+      margin-bottom: 20px;
+    }
+    .button-container {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+    }
+    button {
+      padding: 15px 30px;
+      background: #FFD700;
+      color: black;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #FFC107;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Sending birthday Love! 💚❤️</h1>
+    <p>We have something special for you. Choose what you'd like to do next:</p>
+    <div class="button-container">
+      <button onclick="viewPhotos()">View Photos</button>
+      <button onclick="messageToYou()">Message for You</button>
+    </div>
+  </div>
+
+  <script>
+    function viewPhotos() {
+      // Redirects to a photos page
+      window.location.href = 'photos.html';
+    }
+
+    function messageToYou() {
+      // Redirects to a message page
+      window.location.href = 'message.html';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photo Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+
+      /* Background Image */
+      background: url('Photo22.jpg') no-repeat center center fixed; 
+      background-size: cover;
+
+      color: white;
+    }
+
+    h1 {
+      text-align: center;
+      margin: 20px 0;
+      background-color: rgba(0, 0, 0, 0.5); /* Enhances text readability */
+      padding: 10px;
+      border-radius: 5px;
+    }
+
+    .gallery {
+      display: flex;
+      flex-direction: column; /* Arrange images vertically */
+      align-items: center;   /* Center images horizontally */
+      gap: 20px;             /* Add spacing between images */
+      padding: 20px;
+    }
+
+    .gallery img {
+      width: 100%; /* Make images take up full width */
+      max-width: 600px; /* Optional: Limit the maximum width */
+      height: auto; /* Maintain the aspect ratio */
+      border-radius: 10px;
+      border: 5px solid yellowgreen; /* Add a white border around images */
+      transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+      border-color: gold; /* Change the border color on hover */
+    }
+  </style>
+</head>
+<body>
+  <h1>Photo Gallery</h1>
+  <div class="gallery">
+    <img src="Photo1.jpg" alt="Photo 1">
+    <img src="Photo2.jpg" alt="Photo 2">
+    <img src="Photo3.jpg" alt="Photo 3">
+    <img src="Photo4.jpg" alt="Photo 4">
+    <img src="Photo5.jpg" alt="Photo 5">
+    <img src="Photo6.jpg" alt="Photo 6">
+    <img src="Photo7.jpg" alt="Photo 7">
+    <img src="Photo8.jpg" alt="Photo 8">
+    <img src="Photo9.jpg" alt="Photo 9">
+    <img src="Photo10.jpg" alt="Photo 10">
+    <img src="Photo11.jpg" alt="Photo 11">
+    <img src="Photo12.jpg" alt="Photo 12">
+    <img src="Photo13.jpg" alt="Photo 13">
+    <img src="Photo14.jpg" alt="Photo 14">
+    <img src="Photo15.jpg" alt="Photo 15">
+    <img src="Photo16.jpg" alt="Photo 16">
+    <img src="Photo17.jpg" alt="Photo 17">
+    <img src="Photo18.jpg" alt="Photo 18">
+    <img src="Photo19.jpg" alt="Photo 19">
+    <img src="Photo20.jpg" alt="Photo 20">
+    <img src="Photo21.jpg" alt="Photo 21">
+  </div>
+</body>
+</html>

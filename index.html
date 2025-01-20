@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #333 url('Photo2.jpg') no-repeat center center/cover;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.7);
+      padding: 20px;
+      border-radius: 10px;
+      width: 80%;
+      max-width: 500px;
+    }
+    button {
+      padding: 10px 20px;
+      background: #FFD700;
+      color: black;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #FFC107;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Happy Birthday, Safiya! 🎂</h1>
+    <p>Wishing you a day filled with love, laughter, and wonderful memories. May all your dreams come true!</p>
+    <button onclick="proceed()">Open Karo re</button>
+  </div>
+
+  <script>
+    function proceed() {
+      window.location.href = 'question.html';
+    }
+  </script>
+</body>
+</html>
